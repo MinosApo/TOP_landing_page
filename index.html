@@ -3,49 +3,75 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Some Web Page</title>
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel='stylesheet' href='style.css'/>
   </head>
+
   <body>
    <header>
-    <h1>Awesome Amigurumi</h1>
-    <img src="" alt="Logo from Amigurmi site">
     <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="">CONTACT</a></li>
+      <ul class="navbar">
+        <li class="nav_item"><img src="image/logo.ico" alt="Logo from Amigurmi site">   Awesome Amigurumi</li>
+        <li class="nav_item"><a href="index.html">HOME</a></li>
+        <li class="nav_item"><a href="about.html">ABOUT</a></li>
+        <li class="nav_item"><a href="">CONTACT</a></li>
       </ul>
-    </nav>
-   </header>
+    </nav> 
+   </div>
+
      <main>
       <section class="hero">
-      <h1>Amigurumi</h1>    
-      <img src="" alt="">
-      <p>Amigurumi is the Japanese art of knitting small stuffed animals, dolls, and other yarn creatures.</p>
-      <p>Need some Ideas what to knit?! Here are some beginner friendly Amigurumis. Some even for intermediate LVL</p>
-      <p>All pattern are for free and linked to the original artist/site.</p>
+      <div class="hero_item">
+      <h1>My awesome Amigurumi</h1>    
+      <p>Amigurumi is the Japanese art of knitting small stuffed animals, dolls, and other yarn creatures.</br>
+      Need some Ideas what to knit?! Here are some beginner friendly Amigurumis. </br>
+      Some even for intermediate LVL</br>
+      All pattern are for free and linked to the original artist/site.</p>
       <button>Gallery</button>
+    </div>
+      <img class="hero_item" src="image/monster.jpg" alt="2 coloful knitted Japanese oni monsters">
       </section>
-      <section class="Info">
-        <h2>Basic Amigurumi Technics</h2>
-        <img src="" alt="Pict of basic stitch">
-        <img src="" alt="Picture of a tiny Godzilla">
-        <img src="" alt="Picture of a funky Moose">
-        <img src="" alt="Picture of a Unicorn">
+
+      <section class="info">
+        <h2>Amigurumi Ideas</h2>
+        <div class="info_gallery">
+      <figure class="info_gallery_item">
+        <img src="image/ICE.jpg" alt="Photo of a knitted sleeping Polarbear with a scarf">
+        <figcaption>Polarbear are getting cold too. 2 different stitches nice challenge for beginners.</figcaption>
+      </figure>
+      <figure class="info_gallery_item">
+        <img src="image/eule.jpg" alt="Photo of a knitted sleeping Bird">
+        <figcaption>Sleepy owl. Great pattern for beginner to intermediate.</figcaption>
+      </figure>
+      <figure class="info_gallery_item">
+        <img src="image/bird.jpg" alt="Photo of a knitted phoenix">
+        <figcaption>The mighty phoenix. This pattern has many parts and different stitches.</figcaption>
+      </figure>
+      <figure class="info_gallery_item">
+        <img src="image/zebra.jpg" alt="Photo of a knitted Zebra with colorful hair">
+        <figcaption>Stylish Zebra with colorful hair. 3 different stitches and many parts. Challenge your skills!</figcaption>
+      </figure>
+        </div>
       </section>
+
       <section class="quote">
         <blockquote>        
           <h2>Quote</h2>
           <p>"Amigurumi is the art of knitting with love and passion animals and creatures, bringing joy and creativity to beloved ones."</p>
-          <footer>- Unknown</footer> 
+          <p><b>- Unknown</b></p> 
          </blockquote>
       </section>
+      
+      <section class="action_frame">
       <div class="action">
-        <h2>Get Started</h2>
-        <p>Ready to start your Amigurumi journey? Check out our beginner's guide and get your first pattern today!</p>
+        <div class="action_text">
+        <h2 >Get Started</h2>
+        <p >Ready to start your Amigurumi journey? Check out our beginner's guide and get your first pattern today!</p>
+        </div>
         <button>Start Now</button>
       </div>
-     </main> 
+      </section>
+    </main> 
+
      <footer>
       <p>© 2023 Awsome Amigurumi. All rights reserved.</p>
       <p>Follow us on social media: 

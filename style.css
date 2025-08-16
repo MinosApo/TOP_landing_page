@@ -1,1 +1,189 @@
 /* styles.css */
+
+/* Apply Flexbox layout to header & hero section */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*header styles*/
+header {
+    background-color: #1F2937;
+    color: #F3F4F6;
+    padding: 20px;
+    text-align: center;
+}   
+/*hero styles*/
+.hero {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #e5e7eb;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+/*footer styles*/
+footer {
+    background-color: #1F2937;
+    color: #F3F4F6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Info section styles */
+.info {
+    background-color: #f9faf8;
+    color: #00060e;
+    font-size: 1.2em;
+    margin: auto;
+    padding: 2rem;
+}
+h2 {
+    font: 900 36px roboto, sans-serif;
+    color: "1f2937";
+}
+
+figure {
+    max-width: 300px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+/* Quote section styles */
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-family: light italic;
+    font-size: 36px;
+    padding: 2rem;
+}
+
+.quote p {
+    font-family: light italic;
+    font-size: 36px;
+    margin: 10px 0 ;
+    color: #00060e;
+}
+/*button styles*/
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}   
+/*action section styles*/
+
+.action_frame {
+    background-color: #f9faf8;
+    margin: 0 auto;
+    padding: 60pcx 0;
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #f9faf8
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; 
+}
+
+
+
+
+.action button{
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* flex navbar flexbox */
+.navbar {
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.nav_item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav_item a {
+    color: #F3F4F6;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav_item:first-child {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    margin-left: 2rem;
+}
+
+.nav_item a:hover {
+    cursor: pointer;;
+}
+
+/* Hero section flexbox */   
+.hero {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: justify;
+    padding: 20px;
+    gap: 0;
+}
+.hero_item {
+    margin: 0 2rem;
+    flex: 1;
+}
+
+.hero_item:first-child {
+    margin: auto;
+    margin-left: 2rem;
+}
+
+/* Info section flexbox */
+.info_gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f9faf8;
+    gap: 0;
+}
